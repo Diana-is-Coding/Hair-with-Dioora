@@ -2,13 +2,23 @@ header {
     background-color: blue;
 }
 
-section {
-    background-color: blueviolet;
+.bg-color-main {
+    background-color: #cbd5c0;
 }
 
-.modal {
-    background-color: bisque;
+.bg-color-right {
+    background-color: #a08679;
 }
+
+/* buttons */
+.btn-primary {
+    background-color: #765341;
+    color: #cbd5c0;
+    border: none;
+    padding: 4px;
+}
+
+
 
 /* The Modal (background) */
 
@@ -38,7 +48,7 @@ background-color: rgba(0,0,0,0.4);
 /* The Close Button */
 
 .close {
- color: #aaa;
+ color: #5b3e31;
  float: right;
  font-size: 28px;
  font-weight: bold;
@@ -46,7 +56,7 @@ background-color: rgba(0,0,0,0.4);
 
 .close:hover,
 .close:focus {
- color: black;
+  color: #765341;
   text-decoration: none;
   cursor: pointer;
 }

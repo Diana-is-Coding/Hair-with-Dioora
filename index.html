@@ -18,36 +18,42 @@
     <header>Hello World</header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-md-4 bg-color-personal-info section-column"></div>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nisi nesciunt ipsum nam ipsa asperiores
-            architecto facilis dicta vitae repellendus, eius debitis eveniet omnis praesentium. Quis ut incidunt quos
-            expedita!
-        </div>
+            <div class="col-8 bg-color-main section-column">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nisi nesciunt ipsum nam ipsa asperiores
+                architecto facilis dicta vitae repellendus, eius debitis eveniet omnis praesentium. Quis ut incidunt quos
+                expedita!
+            </div>
+    
+            <!-- Mailing List Sign up -->
+    
+            <div class="col-4 bg-color-right">
+                Get Your Personalised Hair Care Calender here
+                <!-- Button trigger calender modal -->
+                <div class="row">
+                <button type="button" class="btn btn-primary modal-btn" data-bs-toggle="modal" data-bs-target="#mailing-list">CLICK
+                    ME!</button>
+                </div>
+            </div>
 
-        <!-- Mailing List Sign up -->
-
-        <div class="container">
-            Get Your Personalised Hair Care Calender here
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mailing-list">CLICK ME!</button>
-        </div>
-        <div class="modal" id="mailing-list" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Join our mailing list and recieve a free virtual consultation and be sent yuour personalised calender</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Modal body text goes here.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+            <!-- Modal for calender -->
+            <div class="modal" id="mailing-list" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Join our mailing list and recieve a free virtual consultation and be
+                                sent your personalised calender</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
